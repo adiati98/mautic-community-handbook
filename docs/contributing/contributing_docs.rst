@@ -36,7 +36,7 @@ To find issues and claim one in a GitHub repository:
    |
 
    .. image:: images/issues_tab_github.png
-      :alt: Highlight of Issues tab and assignees on GitHub
+      :alt: Highlight of Issues tab and assignees on GitHub.
 
    |
 
@@ -55,7 +55,7 @@ To find issues and claim one from the low- and no-code projects board:
    |
 
    .. image:: images/all_tasks_menu_github_projects.png
-      :alt: Highlight of the all tasks dropdown menu, slice by, and type of issue options at GitHub projects board
+      :alt: Highlight of the all tasks dropdown menu, slice by, and type of issue options at GitHub projects board.
 
    |
 
@@ -65,7 +65,7 @@ To find issues and claim one from the low- and no-code projects board:
    |
 
    .. image:: images/type_of_issue_ready_for_contributors_list_github_projects.png
-      :alt: The type of issue list and Ready for contributors group at Mautic's low-no-code GitHub projects board
+      :alt: The type of issue list and Ready for contributors group at Mautic's low-no-code GitHub projects board.
 
    |
 
@@ -74,7 +74,7 @@ To find issues and claim one from the low- and no-code projects board:
    |
 
    .. image:: images/assignees_column_github_projects.png
-      :alt: Highlight of the assignees column at the GitHub projects board
+      :alt: Highlight of the assignees column at the GitHub projects board.
 
    |
 
@@ -104,7 +104,7 @@ To fork a repository:
    |
 
    .. image:: images/fork_button_github.png
-      :alt: Fork button on GitHub
+      :alt: Fork button on GitHub.
       :width: 600px
       :align: center
 
@@ -119,7 +119,7 @@ To fork a repository:
    |
 
    .. image:: images/choose_fork_owner_github.png
-      :alt: Choose fork owner on GitHub
+      :alt: Choose fork owner on GitHub.
       :width: 350px
       :align: center
 
@@ -132,7 +132,7 @@ To fork a repository:
    |
 
    .. image:: images/uncheck_option_and_create_fork_button_github.png
-      :alt: A deselected checkbox to choose the option to copy only the default branch and a create fork button on GitHub
+      :alt: A deselected checkbox to choose the option to copy only the default branch and a create fork button on GitHub.
       :width: 700px
       :align: center
 
@@ -155,7 +155,7 @@ Follow the steps below to clone your forked repository:
    |
 
    .. image:: images/repositories_option_github.png
-      :alt: Repositories option from a dropdown menu on GitHub
+      :alt: Repositories option in GitHub's dropdown menu.
       :width: 300px
       :align: center
 
@@ -168,7 +168,7 @@ Follow the steps below to clone your forked repository:
    |
 
    .. image:: images/code_button_https_tab_github.png
-      :alt: Highlight of code button, copy symbol, and HTTPS tab on GitHub
+      :alt: Highlight of code button, copy symbol, and HTTPS tab on GitHub.
       :width: 350px
       :align: center
 
@@ -211,7 +211,7 @@ Before you create a new branch, you must ensure that you're on the branch that y
    |
 
    .. image:: images/bottom_branch_tab_vscode.png
-      :alt: Branch tab at the bottom left of VS Code
+      :alt: Branch tab at the bottom left of VS Code.
       :width: 400px
       :align: center
 
@@ -243,7 +243,7 @@ There are two ways to create a new branch:
       |
 
       .. image:: images/create_a_new_branch_vscode.png
-         :alt: Create a new branch option in a dropdown menu on VS Code
+         :alt: Create a new branch option in a dropdown menu on VS Code.
          :width: 500px
          :align: center
 
@@ -283,7 +283,7 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/git_source_control_vscode.png
-         :alt: Source control icon on VS Code
+         :alt: Source control icon on VS Code.
          :height: 300px
          :align: center
 
@@ -298,7 +298,7 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/stage_and_commit_source_control_vscode.png
-         :alt: Highlight plus icon to add files to the staging area, commit message input, and commit button at Source Control in VS Code
+         :alt: Highlight plus icon to add files to the staging area, commit message input, and commit button at Source Control in VS Code.
          :width: 300px
          :align: center
 
@@ -309,7 +309,7 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/publish_branch_button_github.png
-         :alt: Publish branch button on source control at VS Code
+         :alt: Publish branch button on source control at VS Code.
          :width: 350px
          :align: center
 
@@ -320,7 +320,7 @@ There are two ways to push your changes to the remote repository:
       |
 
       .. image:: images/select_remote_repo_dropdown_menu_source_control_vscode.png
-         :alt: Highlight origin remote repository in a dropdown menu on Source Control at VS Code
+         :alt: Highlight origin remote repository in a dropdown menu on Source Control at VS Code.
          :width: 450px
          :align: center
 
@@ -384,7 +384,7 @@ Creating a PR
    |
 
    .. image:: images/change_pr_base_branch_github.png
-      :alt: Highlight of PR base branch on GitHub
+      :alt: Highlight of PR base branch on GitHub.
       :width: 800px
       :align: center
 
@@ -436,7 +436,7 @@ To cherry-pick, please follow the steps outlined below:
    |
 
    .. image:: images/sync_fork_update_branch_buttons_github.png
-      :alt: Sync fork and Update branch buttons on GitHub
+      :alt: Sync fork and Update branch buttons on GitHub.
       :width: 800px
       :align: center
 
@@ -461,7 +461,7 @@ To cherry-pick, please follow the steps outlined below:
    |
 
    .. image:: images/close_pr_button_github.png
-      :alt: Close pull request button on GitHub
+      :alt: Close pull request button on GitHub.
       :width: 300px
       :align: center
 
@@ -478,7 +478,7 @@ To cherry-pick, please follow the steps outlined below:
    |
 
    .. image:: images/commits_tab_copy_full_sha_github.png
-      :alt: Commits tab, list of commits, and copy icon button to copy the full SHA value on GitHub
+      :alt: Commits tab, list of commits, and copy icon button to copy the full SHA value on GitHub.
       :align: center
 
    |
@@ -569,7 +569,7 @@ To work directly on GitHub, follow the steps below:
    |
 
    .. image:: images/edit_on_github.png
-      :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button
+      :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button.
       :width: 500px
       :align: center
 
@@ -580,7 +580,7 @@ To work directly on GitHub, follow the steps below:
    |
 
    .. image:: images/edit_button_github.png
-      :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button
+      :alt: Mautic community handbook with a red box highlighting the Edit on GitHub button.
       :width: 500px
       :align: center
 
@@ -710,7 +710,7 @@ To get the best experience, work locally whenever possible. However, if that’s
    * Click **Stop codespace**
 
    .. image:: images/stop_codespace_github.png
-      :alt: Highlight three dots icon at a codespace and stop codespace option on GitHub Codespaces
+      :alt: Highlight three dots icon at a codespace and stop codespace option on GitHub Codespaces.
       :width: 800px
       :align: center
 
@@ -724,7 +724,7 @@ Setting up a codespace
    |
 
    .. image:: images/switch_branch_github.png
-      :alt: Highlight branch dropdown menu on GitHub
+      :alt: Highlight branch dropdown menu on GitHub.
       :width: 300px
       :align: center
 
@@ -737,7 +737,7 @@ Setting up a codespace
    |
 
    .. image:: images/codespaces_tab_github.png
-      :alt: Highlight Codespaces tab, plus icon, and Create codespace on main at GitHub
+      :alt: Highlight Codespaces tab, plus icon, and Create codespace on main at GitHub.
       :width: 300px
       :align: center
 
@@ -748,7 +748,7 @@ Setting up a codespace
    |
 
    .. image:: images/postcreatecommand_on_terminal.png
-      :alt: The postCreateCommand running in the terminal
+      :alt: The postCreateCommand running in the terminal.
       :align: center
 
    |
@@ -780,7 +780,7 @@ Live preview on codespace
    |
 
    .. image:: images/preview_button_vscode_codespace.png
-      :alt: Highlight the preview button on the top bar of VS Code on codespace
+      :alt: Highlight the preview button on the top bar of VS Code on codespace.
       :width: 450px
       :align: center
 
@@ -792,7 +792,7 @@ Live preview on codespace
    |
 
    .. image:: images/port_and_open_browser_vscode_codespace.png
-      :alt: Highlight the port tab and globe icon to open the preview in the browser at VS Code on codespace
+      :alt: Highlight the port tab and globe icon to open the preview in the browser at VS Code on codespace.
       :width: 450px
       :align: center
 
@@ -841,38 +841,537 @@ If the previous steps fail:
 Working with RST
 ****************
 
-Nesting headings
-================
+Indentations, spaces, and blank lines
+=====================================
 
-Mautic uses the following syntax for headings:
+Indentation, spaces, and blank lines are essential when working with RST. Incorrect spacing causes the page formatting to break.
+
+If a broken format appears during live page preview, verify that the indentation, spacing, and blank lines are correct.
+
+Headings
+========
+
+Nesting headings
+----------------
+
+When creating a heading or section title, underline it with a punctuation character exactly as long as the text. This maintains RST syntax and ensures the documentation remains organized.
+
+Mautic uses the following punctuation characters:
 
 .. code-block:: rst
 
-   H1
-   ###
+   Heading 1
+   #########
 
-   H2
-   ***
+   Heading 2
+   *********
 
-   H3
-   ===
+   Heading 3
+   =========
 
-   H4
-   ---
+   Heading 4
+   ---------
 
-   H5
-   ~~~
+   Heading 5
+   ~~~~~~~~~
 
-   H6
-   ^^^
+   Heading 6
+   ^^^^^^^^^
 
 .. note::
 
-   When you're writing documentation, be sure to:
+   Use only one H1 per page and nest the headings in the order shown. This keeps the documentation consistent and easy to read.
 
-   * Nest your headings correctly. That means you should use only one H1 heading per page, and nest your headings in the order shown. It helps to keep the documentation consistent and easy to read.
+Titles
+------
 
-   * Extend the underline to fit the length of the heading text. It's a requirement of RST syntax and helps to keep the documentation looking neat and tidy.
+Mautic uses sentence case for titles. Capitalize only the first word, unless a word in the middle of the sentence is a Mautic feature or a proper name.
+
+**Examples:**
+
+.. code-block:: rst
+
+   How to update Mautic
+   ####################
+
+   Updating at the command line
+   ****************************
+
+Inline markup
+=============
+
+Standard inline markup for RST includes the following:
+
+* **Emphasis or italic**: use single asterisk - ``*italic*``
+* **Strong or bold**: use double asterisks - ``**bold**``
+* **Inline code**: use double backticks - ````inline code````
+
+**Renders as:**
+
+* *italic*
+* **bold**
+* ``inline code``
+
+Lists
+=====
+
+Unordered list
+--------------
+
+Use the asterisk - ``*`` - for unordered lists.
+
+.. note::
+
+   * When an item has multiple paragraphs, add a blank line to separate them.
+   * If an image is part of an item, add a blank line before the image directive. Align the directive with the beginning of the list item text.
+
+**Example:**
+
+.. code-block:: rst
+
+   * First item
+   * Second item
+
+     Another paragraph of the second item.
+   * Third item
+   * Take a look at the indentation of the image below. It aligns with this and the next bullet point.
+
+     .. image:: images/issues_tab_github.png
+        :alt: Highlight of Issues tab and assignees on GitHub.
+   
+   * Another item
+
+**Renders as:**
+
+* First item
+* Second item
+
+  Another paragraph of the second item.
+* Third item
+* Take a look at the indentation of the image below. It aligns with this and the next bullet point.
+
+  .. image:: images/issues_tab_github.png
+     :alt: Highlight of Issues tab and assignees on GitHub.
+
+* Another item
+
+Nesting unordered lists
+~~~~~~~~~~~~~~~~~~~~~~~
+
+To nest an unordered list, separate the nested list from the parent list with blank lines and add **two spaces** of indentation relative to the parent list item.
+
+**Example:**
+
+.. code-block:: rst
+
+   * First item
+   * Second item
+
+     * Part of the second item
+     * Another part of the second item
+
+   * Third item
+   * Fourth item
+
+**Renders as:**
+
+* First item
+* Second item
+
+  * Part of the second item
+  * Another part of the second item
+
+* Third item
+* Fourth item
+
+Ordered list
+------------
+
+Use the sharp symbol followed by a period - ``#.`` - for ordered lists. This allows RST to handle the numbering automatically.
+
+.. note::
+
+   * When an item has multiple paragraphs, add a blank line to separate them.
+   * If an image is part of an item, add a blank line before the image directive. Align the directive with the beginning of the list item text.
+
+**Example:**
+
+.. code-block:: rst
+
+   #. First item
+   #. Second item
+
+      Another paragraph of the second item.
+   #. Third item
+   #. Take a look at the indentation of the image below. It aligns with the item.
+
+      .. image:: images/issues_tab_github.png
+         :alt: Highlight of Issues tab and assignees on GitHub.
+   
+   #. If the image's indentation is correct, the item number is still in order.
+
+**Renders as:**
+
+#. First item
+#. Second item
+
+   Another paragraph of the second item.
+#. Third item
+#. Take a look at the indentation of the image below. It aligns with the item.
+
+   .. image:: images/issues_tab_github.png
+      :alt: Highlight of Issues tab and assignees on GitHub.
+
+#. If the image's indentation is correct, the item number is still in order.
+
+Nesting ordered lists
+~~~~~~~~~~~~~~~~~~~~~
+
+To nest ordered lists, separate the nested list from the parent list with blank lines and add **three spaces** of indentation relative to the parent list item.
+
+**Example:**
+
+.. code-block:: rst
+
+   #. First item
+   #. Second item
+
+      #. Part of the second item
+      #. Another part of the second item
+
+   #. Third item
+   #. Fourth item
+
+**Renders as:**
+
+#. First item
+#. Second item
+
+   #. Part of the second item
+   #. Another part of the second item
+
+#. Third item
+#. Fourth item
+
+Combining nested lists
+----------------------
+
+When combining unordered and ordered lists, follow the parent list spacing rules. If the parent is an unordered list, add **two spaces** of indentation to the nested list. If the parent is an ordered list, add **three spaces**.
+
+**Examples:**
+
+.. code-block:: rst
+
+   An example of an **unordered list** as a parent:
+
+   * First item of the parent list
+
+     #. This item has **two spaces** relative to the parent list item
+     #. Another item of the nested list
+
+   * Another item of the parent list
+
+   An example of an **ordered list** as a parent:
+
+   #. First item of the parent list
+
+      * This item has **three spaces** relative to the parent list item
+      * Another item of the nested list
+
+   #. Another item of the parent list
+
+**Renders as:**
+
+An example of an **unordered list** as a parent:
+
+* First item of the parent list
+
+  #. This item has **two spaces** relative to the parent list item
+  #. Another item of the nested list
+
+* Another item of the parent list
+
+An example of an **ordered list** as a parent:
+
+#. First item of the parent list
+
+   * This item has **three spaces** relative to the parent list item
+   * Another item of the nested list
+
+#. Another item of the parent list
+
+Directives
+==========
+
+Directives are blocks of explicit markup that instruct the RST parser to render specific content types. 
+
+Directive syntax 
+----------------
+
+Most directives follow this general format: 
+
+.. code-block:: rst    
+
+   .. DIRECTIVE_NAME:: ARGUMENTS 
+      :OPTION: VALUE       
+
+      CONTENT
+
+* **Directives** - Always start with two periods and a space, and end with two colons. 
+* **Options** - These appear on the lines immediately following the directive name. They start and end with a single colon and require a three-space indentation. 
+* **Content** - This follows a blank line and must align with the three-space indentation of the options.
+
+Commonly used directives
+------------------------
+
+Mautic documentation uses several standard directives to structure information.
+
+.. tip::
+
+   Refer to the :xref:`Sphinx directive documentation` for a complete list of available directives and detailed information.
+
+Code-block
+~~~~~~~~~~
+
+Use the ``.. code-block::`` directive to display code snippets. Always specify the language - for example, ``bash``, ``php``, or ``rst`` - to enable syntax highlighting.
+
+**Example:**
+
+.. code-block:: rst
+
+   .. code-block:: php
+
+      <?php
+
+      namespace Mautic\Plugin\ExampleBundle;
+
+      class MyClass
+      {
+          public function onPluginInstall()
+          {
+              // Logic for plugin installation
+          }
+      }
+
+**Renders as:**
+
+.. code-block:: php
+
+   <?php
+
+   namespace Mautic\Plugin\ExampleBundle;
+
+   class MyClass
+   {
+       public function onPluginInstall()
+       {
+           // Logic for plugin installation
+       }
+   }
+
+**Structure:**
+
+* **Language** - Add the language name directly after the double colons. This ensures the code displays with the correct colors and formatting.
+* **Indentation** - Indent the code snippet with **three spaces** to align it under the start of the directive name.
+* **Comments** - Maintain existing comments and indentation within the code block.
+
+Admonition
+~~~~~~~~~~
+
+Use admonitions to highlight specific information. Refer to the :ref:`Admonitions` section for details.
+
+Image
+~~~~~
+
+Use the ``.. image::`` directive to insert visual assets. Refer to the :ref:`Image directive` section for more information.
+
+Table
+~~~~~
+
+Use the ``.. list-table::`` directive to organize data into rows and columns. This format allows for easier updates than standard grid tables.
+
+.. note::
+
+   Mautic documentation uses the ``.. list-table::`` directive without a title unless necessary. Don't add text after the double colons unless the context specifically requires a title.
+
+**Example:**
+
+.. code-block:: rst
+
+   .. list-table::
+      :widths: 30 70
+      :header-rows: 1
+
+      * - Role title
+        - Tasks
+      * - Contributor
+        - Submits code or documentation fixes.
+      * - Maintainer
+        - Reviews pull requests and manages releases.
+
+**Renders as:**
+
+.. list-table::
+   :widths: 30 70
+   :header-rows: 1
+
+   * - Role title
+     - Tasks
+   * - Contributor
+     - Submits code or documentation fixes.
+   * - Maintainer
+     - Reviews PRs and manages releases.
+
+**Structure:**
+
+* **Widths** - Use the ``:widths:`` option to set the relative percentage for each column.
+* **Header rows** - The ``:header-rows: 1`` option designates the first bulleted list as the table header. This formats the top row differently from the rest of the data.
+* **Header structure** - The first bulleted list in the example defines the header row.
+  
+  .. code-block:: rst
+
+     * - Role title
+       - Tasks
+
+* **List structure** - Each asterisk - ``*`` - represents a new row. Each dash - ``-`` - represents a column within that row. The first dash is column 1, the second dash is column 2, and so on.
+
+Figure
+~~~~~~
+
+Use the ``.. figure::`` directive when an image requires a caption. The figure directive works like the image directive but treats any text following a blank line as a caption. Use this only when a formal caption is necessary to describe the visual.
+
+**Example:** 
+
+.. code-block:: rst
+
+   .. figure:: images/repositories_option_github.png
+      :alt: Repositories option in GitHub's dropdown menu.
+      :width: 300px
+      :align: center
+
+      The repositories option in GitHub's dropdown menu.
+
+**Renders as:**
+
+.. figure:: images/repositories_option_github.png
+   :alt: Repositories option in GitHub's dropdown menu.
+   :width: 300px
+   :align: center
+
+   The repositories option in GitHub's dropdown menu.
+
+Admonitions
+===========
+
+Use admonitions to highlight information that requires extra attention. When writing an admonition, include a blank line between the directive and the content, and indent the content by **three spaces**.
+
+RST supports these standard admonition types:
+
+* ``attention``
+* ``caution``
+* ``danger``
+* ``error``
+* ``hint``
+* ``important``
+* ``note``
+* ``tip``
+* ``warning``
+
+**Example:**
+
+.. code-block::
+
+   .. important::
+
+      This is important information that you need to read.
+
+**Renders as:**
+
+.. important::
+
+   This is important information that you need to read.
+
+Customizing admonition title
+----------------------------
+
+To use a custom title, use the ``.. admonition::`` directive followed by the title.
+
+Note that only one neutral color is available for this admonition type.
+
+**Example:**
+
+.. code-block:: rst
+
+   .. admonition:: Customized admonition
+    
+      This is a customized admonition.
+
+**Renders as:**
+
+.. admonition:: Customized admonition
+    
+   This is a customized admonition.
+
+Admonition contents
+-------------------
+
+Admonitions can contain lists, inline code, code blocks, and images. All content within the admonition must maintain the **three-space** indentation.
+
+**Example:**
+
+.. code-block::
+
+   .. admonition:: Various contents
+
+      This admonition contains various types of content:
+
+      **List**
+
+      * Item 1
+      * Item 2
+
+      **Inline code**
+
+      ``inline code``
+
+      **Code block**
+
+      .. code-block:: bash
+
+         $ git add .
+         $ git commit -m "commit message"
+
+      **Image**
+
+      .. image:: images/issues_tab_github.png
+         :alt: Highlight of Issues tab and assignees on GitHub.
+
+**Renders as:**
+
+.. admonition:: Various contents
+
+   This admonition contains various types of content:
+
+   **List**
+
+   * Item 1
+   * Item 2
+
+   **Inline code**
+
+   ``inline code``
+
+   **Code block**
+
+   .. code-block:: bash
+
+      $ git add .
+      $ git commit -m "commit message"
+
+   **Image**
+
+   .. image:: images/issues_tab_github.png
+      :alt: Highlight of Issues tab and assignees on GitHub.
 
 Linking to other pages
 ======================
@@ -898,9 +1397,11 @@ For example, to link the text "A link title" to the heading "Linking to Other Pa
 
 .. code-block:: rst
 
-   :ref:`A link title <Linking to other pages>`
+   :ref:`A link title <Linking to other pages>`.
 
-This renders as: :ref:`A link title <Linking to other pages>`.
+**Renders as:**
+
+:ref:`A link title <Linking to other pages>`.
 
 Read more about ``:ref:`` in the :xref:`ref role documentation`.
 
@@ -913,7 +1414,7 @@ Linking to another page in the same documentation repository
     :doc:`/guides/documentation-page`
     :doc:`Custom title </guides/documentation-page>`
 
-In this example, the target could be a page called "documentation-page."
+In this example, the target could be a page called 'documentation-page'.
 
 * The first example uses the page name as if it were in the same directory as the current file.
 * The second option uses the full path to the file if it were in a different directory.
@@ -947,7 +1448,7 @@ To make sure the link is available, in VS Code:
    |
 
    .. image:: images/search_icon_vscode.png
-      :alt: Highlight search icon button in the left bar of VS Code
+      :alt: Highlight search icon button in the left bar of VS Code.
       :height: 300px
       :align: center
 
@@ -1047,7 +1548,7 @@ You should see a list of links. To identify broken links, follow these steps:
 Here's an example of a broken link:
 
    .. image:: images/broken_link_example.png
-      :alt: Example of a broken link with error message: (contributing/contributing_docs_rst: line  198) broken    https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#add-link-make-command - 404 Client Error: Not Found for url: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html
+      :alt: Example of a broken link with error message: (contributing/contributing_docs_rst: line  198) broken    https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html#add-link-make-command - 404 Client Error: Not Found for url: https://sublime-and-sphinx-guide.readthedocs.io/en/latest/references.html.
       :width: 600px
       :align: center
 
@@ -1109,7 +1610,7 @@ Your changes must follow Mautic's style guide. To ensure that the changes are co
 
 #. Ensure that you're in the ``docs/`` directory.
 
-   If you're not, and assuming you're in the project's root, you can run this command:
+   If you're not, and assuming you're in the project's root, run this command:
 
    .. code-block:: bash
    
@@ -1205,12 +1706,12 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
       Enter the URL to the file (should start with https://raw.githubusercontent.com/...):  https://raw.githubusercontent.com/mautic/plugin-helloworld/mautic-4/Entity/World.php
       Enter the .py file name (use_lower_case_and_underscore of link name):  helloworld_entity_world
 
-#. In the documentation RST file where you need to add the code sample, add a ``literalinclude`` block to include the code:
+#. In the documentation RST file where you need to add the code sample, add a ``.. literalinclude::`` syntax followed by the file URL to include the code:
 
    .. code-block:: python
    
       .. literalinclude:: ../code_samples_downloaded/UNIQUE_FILE_NAME.php
-         :language: php
+         :language: LANGUAGE
 
    Here's an example:
 
@@ -1228,6 +1729,98 @@ Code samples get downloaded from GitHub to ensure that they're always up to date
 Updating Mautic UI images
 *************************
 
-To update the User Interface - UI - images for Mautic, you need to fork and clone the :xref:`Mautic GitHub repository`.
+To update the User Interface - UI - images for Mautic, fork and clone the :xref:`Mautic GitHub repository`.
 
-Then, follow the instructions on the :doc:`tester` page for comprehensive guidance on installing and running Mautic.
+Follow the instructions on the :doc:`tester` page for guidance on installing and running Mautic.
+
+Working with images
+===================
+
+Images directory
+----------------
+
+To keep the documentation organized and easy to maintain, Mautic follows a specific structure for all visual assets. This practice keeps images near the content they illustrate.
+
+Place all image files within the ``images`` subdirectory located inside the relevant section folder:
+
+* Identify the specific directory containing the documentation page
+* Open the ``images`` subdirectory within that directory and add the new image
+* Create the ``images`` folder if it doesn't already exist
+
+**Directory structure**
+
+.. code-block:: text
+
+   .
+   └── docs/
+      └── contributing/
+         ├── images/
+         │   ├── broken_link_example.png
+         │   └── change_branch.png
+         └── contributing_docs.rst
+
+Image convention
+----------------
+
+File format
+~~~~~~~~~~~
+
+Mautic uses the ``.png`` format for images. For dynamic visuals, Mautic accepts the ``GIF`` format.
+
+Name convention
+~~~~~~~~~~~~~~~
+
+To maintain consistency with RST formatting, use underscores - ``_`` - to separate words when naming an image file.
+
+**Example:**
+
+``broken_link_example.png``
+
+Highlighting parts in an image
+------------------------------
+
+Use the color **red** to draw boxes that highlight specific parts of an image.
+
+**Example:**
+
+.. image:: images/issues_tab_github.png
+   :alt: Highlight of Issues tab and assignees on GitHub.
+
+Image directive
+---------------
+
+An image directive includes options such as alt text, image width, and alignment.
+
+When adding an option:
+
+* Indent the option by exactly **three spaces** to align the colon with the first letter of the directive name.
+* Avoid blank lines between the directive and its options.
+
+.. attention::
+
+   Any blank line between the directive and its options, or between the options themselves, causes the image to fail to render. Incorrect indentation displays a broken image icon, followed by the options - such as alt text - appearing as plain text.
+
+**Example:**
+
+.. code-block:: rst
+
+   .. image:: images/repositories_option_github.png
+      :alt: Repositories option in GitHub's dropdown menu.
+      :width: 300px
+      :align: center
+
+Alt text best practices
+-----------------------
+
+Effective alt text ensures the documentation remains accessible. Follow these standards for every image:
+
+* **Capitalize the first word** - Start every alt text string with a capital letter.
+* **Include a period** - End the alt text with a period to ensure screen readers pause correctly.
+* **Describe the function** - Focus on the information the image shows, such as "The Campaign Trigger menu showing the Email sent option."
+* **Maintain conciseness** - Avoid phrases like "Image of" or "Screenshot of," as screen readers already identify the element type.
+* **Include visible text** - If the image displays a specific error message or button label, include that text in the alt option.
+
+**Example comparison:**
+
+* **Poor:** ``:alt: screenshot of Mautic dashboard``
+* **Better:** ``:alt: The Mautic dashboard showing the Contact growth widget.``
