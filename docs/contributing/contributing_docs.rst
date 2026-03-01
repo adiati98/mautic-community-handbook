@@ -1117,6 +1117,8 @@ Most directives follow this general format:
 
       CONTENT
 
+**Structure:**
+
 * **Directives** - Always start with two periods and a space, and end with two colons. 
 * **Options** - These appear on the lines immediately following the directive name. They start and end with a single colon and require a three-space indentation. 
 * **Content** - This follows a blank line and must align with the three-space indentation of the options.
@@ -1124,11 +1126,19 @@ Most directives follow this general format:
 Commonly used directives
 ------------------------
 
-Mautic documentation uses several standard directives to structure information.
+Mautic documentation frequently utilizes the directives listed below. While these represent the standard for most pages, you may use any valid Sphinx directive to structure content.
 
-.. tip::
+Refer to the :xref:`Sphinx directive documentation` for a complete list of available directives and detailed information.
 
-   Refer to the :xref:`Sphinx directive documentation` for a complete list of available directives and detailed information.
+Admonition
+~~~~~~~~~~
+
+Use admonitions to highlight specific information. Refer to the :ref:`Admonitions` section for details.
+
+Image
+~~~~~
+
+Use the ``.. image::`` directive to insert visual assets. Refer to the :ref:`Image directive` section for more information.
 
 Code-block
 ~~~~~~~~~~
@@ -1173,26 +1183,15 @@ Use the ``.. code-block::`` directive to display code snippets. Always specify t
 
 * **Language** - Add the language name directly after the double colons. This ensures the code displays with the correct colors and formatting.
 * **Indentation** - Indent the code snippet with **three spaces** to align it under the start of the directive name.
-* **Comments** - Maintain existing comments and indentation within the code block.
-
-Admonition
-~~~~~~~~~~
-
-Use admonitions to highlight specific information. Refer to the :ref:`Admonitions` section for details.
-
-Image
-~~~~~
-
-Use the ``.. image::`` directive to insert visual assets. Refer to the :ref:`Image directive` section for more information.
 
 Table
 ~~~~~
 
-Use the ``.. list-table::`` directive to organize data into rows and columns. This format allows for easier updates than standard grid tables.
+Use the ``.. list-table::`` directive to organize data into rows and columns.
 
 .. note::
 
-   Mautic documentation uses the ``.. list-table::`` directive without a title unless necessary. Don't add text after the double colons unless the context specifically requires a title.
+   Mautic documentation uses the ``.. list-table::`` directive without a title. Only add text after the double colons if the context specifically requires one.
 
 **Example:**
 
@@ -1208,6 +1207,8 @@ Use the ``.. list-table::`` directive to organize data into rows and columns. Th
         - Submits code or documentation fixes.
       * - Maintainer
         - Reviews pull requests and manages releases.
+      * - Triage Team
+        - 
 
 **Renders as:**
 
@@ -1221,6 +1222,8 @@ Use the ``.. list-table::`` directive to organize data into rows and columns. Th
      - Submits code or documentation fixes.
    * - Maintainer
      - Reviews PRs and manages releases.
+   * - Triage Team
+     -
 
 **Structure:**
 
@@ -1234,31 +1237,7 @@ Use the ``.. list-table::`` directive to organize data into rows and columns. Th
        - Tasks
 
 * **List structure** - Each asterisk - ``*`` - represents a new row. Each dash - ``-`` - represents a column within that row. The first dash is column 1, the second dash is column 2, and so on.
-
-Figure
-~~~~~~
-
-Use the ``.. figure::`` directive when an image requires a caption. The figure directive works like the image directive but treats any text following a blank line as a caption. Use this only when a formal caption is necessary to describe the visual.
-
-**Example:** 
-
-.. code-block:: rst
-
-   .. figure:: images/repositories_option_github.png
-      :alt: Repositories option in GitHub's dropdown menu.
-      :width: 300px
-      :align: center
-
-      The repositories option in GitHub's dropdown menu.
-
-**Renders as:**
-
-.. figure:: images/repositories_option_github.png
-   :alt: Repositories option in GitHub's dropdown menu.
-   :width: 300px
-   :align: center
-
-   The repositories option in GitHub's dropdown menu.
+* **Empty columns** - If a column has no content, include the dash - ``-`` - but leave the rest of the line blank. Every row must have the same number of dashes to maintain the table structure.
 
 Admonitions
 ===========
@@ -1373,6 +1352,73 @@ Admonitions can contain lists, inline code, code blocks, and images. All content
    .. image:: images/issues_tab_github.png
       :alt: Highlight of Issues tab and assignees on GitHub.
 
+Working with internal links
+***************************
+
+Internal links connect related information within the same documentation project. By adding these links, readers can easily navigate between various pages and sections of the documentation.
+
+Linking to a custom target
+==========================
+
+A target acts like a bookmark. Placing a target before a specific paragraph, image, code block, and so on, allows a link to point directly to that spot.
+
+.. note::
+
+   Custom targets allow for linking between different files. Every target name is unique, so the system finds the correct location regardless of which page the link is on.
+
+**Example:**
+
+.. code-block:: rst
+
+   Code block below has a hidden label.
+
+   .. _custom target:
+
+   .. code-block:: php
+
+      <?php
+
+      namespace Mautic\Plugin\ExampleBundle;
+
+      class MyClass
+      {
+          public function onPluginInstall()
+          {
+              // Logic for plugin installation
+          }
+      }
+
+   Follow this :ref:`link to the code block <custom target>`.
+
+**Renders as:**
+
+Code block below has a hidden label.
+
+.. _custom target:
+
+.. code-block:: php
+
+   <?php
+
+   namespace Mautic\Plugin\ExampleBundle;
+
+   class MyClass
+   {
+      public function onPluginInstall()
+      {
+         // Logic for plugin installation
+      }
+   }
+
+Follow this :ref:`link to the code block <custom target>`.
+
+**Structure:**
+
+* **Target** - Start the line with two dots, a space, an underscore, the name, and a colon.
+* **Placement** - Position the target on the line immediately before the element. Include one blank line between the target and the content.
+* **Unique names** - Every target name must be unique across the entire documentation project.
+* **The link** - Use the ``:ref:`` role to point to the target. Use the target name inside ``< >`` brackets for custom link text, such as ``:ref:`Custom text <custom target>```. Alternatively, use the target name alone inside backticks, such as ``:ref:`custom target```, to automatically display the title of the section it marks.
+
 Linking to other pages
 ======================
 
@@ -1381,65 +1427,70 @@ When you're linking to other pages in the documentation, be sure to use the corr
 Linking within the current page
 -------------------------------
 
+Use these links to help readers find related sections on the same page.
+
+.. note::
+
+   This reference only works within the current file. To link to a heading on a different page, use a :ref:`custom target <Linking to a custom target>`.
+
+**Examples:**
+
 .. code-block:: rst
 
    :ref:`A heading`
-   :ref:`Target to paragraph <A heading>`
-   :ref:`Target inside a paragraph <A heading>`
+   :ref:`A custom link <A heading>`
 
-In this example, the target is a page heading called 'A heading'.
+The link points to a page heading titled "A heading."
 
-The first example uses the heading name and outputs it precisely as it appears on the page where it's used.
+* **Standard link** - The first example uses the heading name and displays the text exactly as it appears on the page.
+* **Custom link** - The second example uses specific text to override the heading name. Place your custom text before the ``< >`` brackets. The text inside the brackets must match the heading exactly.
 
-The second and third options use a text to override the existing heading. The content between the ``<`` and ``>`` tags is the heading from the page you want to link to - it must be an exact match to a heading used elsewhere on the page. The text displayed before ``<`` is what you want the words to display in the link.
-
-For example, to link the text "A link title" to the heading "Linking to Other Pages" on this page, use the following format:
+The example below links the text "Click this link title" to the actual "Linking to other pages" heading on this page:
 
 .. code-block:: rst
 
-   :ref:`A link title <Linking to other pages>`.
+   :ref:`Click this link title <Linking to other pages>`
 
-**Renders as:**
+Try clicking this link to see how it works: :ref:`Click this link title <Linking to other pages>`.
 
-:ref:`A link title <Linking to other pages>`.
-
-Read more about ``:ref:`` in the :xref:`ref role documentation`.
+Read more about the ``:ref:`` role in the :xref:`ref role documentation`.
 
 Linking to another page in the same documentation repository
 ------------------------------------------------------------
 
+Use the ``:doc:`` role to link to different pages within the same documentation repository.
+
 .. code-block:: rst
-    
-    :doc:`documentation-page`
-    :doc:`/guides/documentation-page`
-    :doc:`Custom title </guides/documentation-page>`
 
-In this example, the target could be a page called 'documentation-page'.
+   :doc:`contributing_docs`
+   :doc:`/contributing/contributing_docs`
+   :doc:`Custom title </contributing/contributing_docs>`
 
-* The first example uses the page name as if it were in the same directory as the current file.
-* The second option uses the full path to the file if it were in a different directory.
-* The third uses a text to override the page heading.
+In these examples, the link points to a file named ``contributing_docs.rst``.
+
+* **Relative path** - The first example links to a page in the same folder as the current file.
+* **Absolute path** - The second example uses a forward slash ``/`` to start from the top-level folder of the documentation. Include the full path and all folder names, such as ``/contributing/``.
+
+  This approach is **preferable** because it avoids broken links and eliminates the need to update the path - the target name - when restructuring content.
+* **Custom title** - The third example overrides the page title with custom title.
 
 .. note::
     
-   When linking to another page in the same documentation repository, you don't need to include the file extension - ``.rst``. Sphinx automatically adds it when building the documentation. Using paths relative to the documentation root is preferable to avoid changing the target name when restructuring content.
+   Don't include the ``.rst`` file extension when linking to another page. Sphinx adds this automatically during the build process.
 
 Learn more about ``:doc:`` in the :xref:`doc role documentation`.
-
-External links
---------------
-
-Read the :ref:`Working with external links` section to add an external link and learn more about ``:xref:`` in the :xref:`xref role documentation`.
 
 Working with external links
 ***************************
 
-In this section, you can find the commands you need to work with external links. Ensure you're in the ``docs/`` directory to run these commands.
+This section provides the guidelines and commands for managing external links. You must execute all DDEV commands from the ``docs/`` directory.
 
-Add an external link
-====================
+Reusing external links
+======================
 
-Mautic uses link files located in the ``/links`` directory. If you need to add an external link, please ensure that the link is available in the directory first.
+Mautic stores external links in the ``/links`` directory to keep the documentation organized. Before you add a new external link, verify that it's not already in the directory.
+
+This approach is **preferable** because it prevents duplicate entries and simplifies link management. If the link exists, use the established reference. If the link is missing, you must add it to the directory before using it in a page.
 
 To make sure the link is available, in VS Code:
 
