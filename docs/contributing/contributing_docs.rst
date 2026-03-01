@@ -612,7 +612,7 @@ To work locally, you first need to install these on your machine:
 
 #. **DDEV**
 
-   Mautic uses :xref:`DDEV` to simplify local development and testing of documentation updates. Go to the ":xref:`DDEV get started`" page for instructions to install DDEV on your local machine.
+   Mautic uses :xref:`DDEV` to simplify local development and testing of documentation updates. Go to the :xref:`DDEV get started` page for instructions to install DDEV on your local machine.
 
    .. note:: **For Windows users**:
       
@@ -620,7 +620,7 @@ To work locally, you first need to install these on your machine:
 
 #. **Vale**
 
-   Mautic uses :xref:`vale` to maintain style guide consistency across the docs. Go to the ":xref:`install Vale`" page on the official documentation to install Vale on your computer.
+   Mautic uses :xref:`vale` to maintain style guide consistency across the docs. Go to the :xref:`install Vale` page on the official documentation to install Vale on your computer.
 
 #. **GitHub CLI - optional**
 
@@ -660,7 +660,7 @@ Setting up the local environment
       cd docs
 
 #. Find the folder and file that you want to work on.
-#. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the ":ref:`Working with Vale`" section to use Vale. Use the live preview to ensure everything works as intended in real time.
+#. Make changes and ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the :ref:`Working with Vale` section to use Vale. Use the live preview to ensure everything works as intended in real time.
 #. Build the project by running:
 
    .. code-block:: bash
@@ -675,7 +675,7 @@ Setting up the local environment
 
    DDEV uses the folder name as the project name. This command automatically opens your browser and navigates to ``https://FOLDER-NAME.ddev.site/``.
 
-If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
+If you're ready to push your changes to the remote repository and create a PR, please read the :ref:`Push changes to the remote repository` and :ref:`Creating a PR` sections.
 
 .. note::
 
@@ -763,7 +763,7 @@ Setting up a codespace
 
 #. Find the folder and file that you need to work on.
 #. Work on your changes and use the :ref:`live preview <Live preview on codespace>` to view and test your changes in real-time.
-#. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the ":ref:`Working with Vale`" section to use Vale.
+#. Ensure that the changes you made follow Mautic's style guide by running the Vale lint. Please read the :ref:`Working with Vale` section to use Vale.
 
 Live preview on codespace
 -------------------------
@@ -798,13 +798,13 @@ Live preview on codespace
 
    |
 
-If you're ready to push your changes to the remote repository and create a PR, please read the ":ref:`Push changes to the remote repository`" and ":ref:`Creating a PR`" sections.
+If you're ready to push your changes to the remote repository and create a PR, please read the :ref:`Push changes to the remote repository` and :ref:`Creating a PR` sections.
 
 .. tip::
 
    * Always refresh the page to view the new changes you have applied.
    * All commands only work within the ``docs/`` directory. If you're unable to run a command, verify that you're in the correct directory.
-   * Read the ":ref:`Troubleshooting live preview`" section if you encounter any issues with the live preview in the codespace.
+   * Read the :ref:`Troubleshooting live preview` section if you encounter any issues with the live preview in the codespace.
 
 Troubleshooting live preview
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1429,7 +1429,7 @@ Learn more about ``:doc:`` in the :xref:`doc role documentation`.
 External links
 --------------
 
-Read the ":ref:`Working with external links`" section to add an external link and learn more about ``:xref:`` in the :xref:`xref role documentation`.
+Read the :ref:`Working with external links` section to add an external link and learn more about ``:xref:`` in the :xref:`xref role documentation`.
 
 Working with external links
 ***************************
@@ -1542,7 +1542,7 @@ You should see a list of links. To identify broken links, follow these steps:
 .. vale off
 
 #. In your terminal, press ``Cmd/Ctrl + F``.
-#. Type 'broken'. You should see the count of the word "broken" next to the search bar.
+#. Type 'broken'. You should see the count of the word next to the search bar.
 #. Click the down arrow to locate the broken links.
 
 Here's an example of a broken link:
@@ -1569,7 +1569,7 @@ Status code 404
 If the broken links have a status code of ``404 Client Error: Not Found for url``, follow the steps below to fix them:
 
 #. Copy the broken link URL from the terminal.
-#. Follow the steps in the ":ref:`Add an external link`" section to find the link file and to copy the ``link_name`` value.
+#. Follow the steps in the :ref:`Add an external link` section to find the link file and to copy the ``link_name`` value.
 #. Search ``:xref: `value```.
 #. You should see files that contain the search item.
 #. Open the file and review the content.
